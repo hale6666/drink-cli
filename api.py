@@ -1,7 +1,5 @@
 import requests
 import json
-import csh_ldap as ldap
-import vari
 
 with open("api.key") as f:
     API_KEY = f.read().strip()
